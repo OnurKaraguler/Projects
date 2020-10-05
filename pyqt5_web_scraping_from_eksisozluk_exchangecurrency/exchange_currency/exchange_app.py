@@ -105,7 +105,7 @@ class ExchangeCurrency(QWidget):
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36'
         }
-        with requests.Session() as ses:
+            with requests.Session() as ses:
             url_usd_try = 'https://tr.investing.com/currencies/usd-try'
             url_eur_try = 'https://tr.investing.com/currencies/eur-try'
             url_eur_usd = 'https://tr.investing.com/currencies/eur-usd'
